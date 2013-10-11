@@ -1,15 +1,14 @@
 //
 //  SBTickView.m
-//  TimerV2
+//  SBTickerViewDemo
 //
-//  Created by Don Zhang on 13-10-11.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Created by Simon Blommegård on 2011-12-10.
+//  Copyright (c) 2011 Simon Blommegård. All rights reserved.
 //
 
 #import "SBTickView.h"
 
 @implementation SBTickView
-
 @synthesize title = _title;
 @synthesize fontSize = _fontSize;
 @synthesize backColor = _backColor;
@@ -32,7 +31,6 @@
     [view setFontSize:fontSize];
     return view;
 }
-s
 - (void)drawRect:(CGRect)rect {
     UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, 1., 1.)
                                                     cornerRadius:2.];
@@ -44,6 +42,5 @@ s
              lineBreakMode:UILineBreakModeTailTruncation
                  alignment:UITextAlignmentCenter];  
 }
-
 
 @end

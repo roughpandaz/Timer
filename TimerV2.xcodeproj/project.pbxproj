@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F731B8A51808758800A9CCE7 /* SBTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = F731B8A41808758800A9CCE7 /* SBTickView.m */; };
+		F731B8AF180875CD00A9CCE7 /* UIView+SBExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = F731B8A8180875CD00A9CCE7 /* UIView+SBExtras.m */; };
+		F731B8B0180875CD00A9CCE7 /* SBTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F731B8AA180875CD00A9CCE7 /* SBTickerView.m */; };
+		F731B8B1180875CD00A9CCE7 /* SBDoubleSidedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F731B8AC180875CD00A9CCE7 /* SBDoubleSidedLayer.m */; };
+		F731B8B2180875CD00A9CCE7 /* SBGradientOverlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F731B8AE180875CD00A9CCE7 /* SBGradientOverlayLayer.m */; };
+		F731B8E61808767200A9CCE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F731B8E51808767200A9CCE7 /* QuartzCore.framework */; };
 		F7939C6B1807BAB100FE5072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7939C6A1807BAB100FE5072 /* UIKit.framework */; };
 		F7939C6D1807BAB100FE5072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7939C6C1807BAB100FE5072 /* Foundation.framework */; };
 		F7939C6F1807BAB100FE5072 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7939C6E1807BAB100FE5072 /* CoreGraphics.framework */; };
@@ -19,19 +25,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F731B8A31808758800A9CCE7 /* SBTickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTickView.h; sourceTree = "<group>"; };
+		F731B8A41808758800A9CCE7 /* SBTickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTickView.m; sourceTree = "<group>"; };
+		F731B8A7180875CD00A9CCE7 /* UIView+SBExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SBExtras.h"; sourceTree = "<group>"; };
+		F731B8A8180875CD00A9CCE7 /* UIView+SBExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SBExtras.m"; sourceTree = "<group>"; };
+		F731B8A9180875CD00A9CCE7 /* SBTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTickerView.h; sourceTree = "<group>"; };
+		F731B8AA180875CD00A9CCE7 /* SBTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTickerView.m; sourceTree = "<group>"; };
+		F731B8AB180875CD00A9CCE7 /* SBDoubleSidedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDoubleSidedLayer.h; sourceTree = "<group>"; };
+		F731B8AC180875CD00A9CCE7 /* SBDoubleSidedLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDoubleSidedLayer.m; sourceTree = "<group>"; };
+		F731B8AD180875CD00A9CCE7 /* SBGradientOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBGradientOverlayLayer.h; sourceTree = "<group>"; };
+		F731B8AE180875CD00A9CCE7 /* SBGradientOverlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBGradientOverlayLayer.m; sourceTree = "<group>"; };
+		F731B8E51808767200A9CCE7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F7939C661807BAB100FE5072 /* TimerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7939C6A1807BAB100FE5072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F7939C6C1807BAB100FE5072 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7939C6E1807BAB100FE5072 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F7939C721807BAB100FE5072 /* TimerV2-Info.plist */ = {isa = PBXFileReference; path = "TimerV2-Info.plist"; sourceTree = "<group>"; };
+		F7939C721807BAB100FE5072 /* TimerV2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerV2-Info.plist"; sourceTree = "<group>"; };
 		F7939C741807BAB100FE5072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F7939C761807BAB100FE5072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F7939C781807BAB100FE5072 /* TimerV2-Prefix.pch */ = {isa = PBXFileReference; path = "TimerV2-Prefix.pch"; sourceTree = "<group>"; };
-		F7939C791807BAB100FE5072 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7939C781807BAB100FE5072 /* TimerV2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimerV2-Prefix.pch"; sourceTree = "<group>"; };
+		F7939C791807BAB100FE5072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7939C7A1807BAB100FE5072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F7939C7D1807BAB100FE5072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F7939C801807BAB100FE5072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F7939C821807BAB100FE5072 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F7939C821807BAB100FE5072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F7939C831807BAB100FE5072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F731B8E61808767200A9CCE7 /* QuartzCore.framework in Frameworks */,
 				F7939C6B1807BAB100FE5072 /* UIKit.framework in Frameworks */,
 				F7939C6D1807BAB100FE5072 /* Foundation.framework in Frameworks */,
 				F7939C6F1807BAB100FE5072 /* CoreGraphics.framework in Frameworks */,
@@ -49,6 +67,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F731B8A6180875BE00A9CCE7 /* SbTickerview */ = {
+			isa = PBXGroup;
+			children = (
+				F731B8A7180875CD00A9CCE7 /* UIView+SBExtras.h */,
+				F731B8A8180875CD00A9CCE7 /* UIView+SBExtras.m */,
+				F731B8A9180875CD00A9CCE7 /* SBTickerView.h */,
+				F731B8AA180875CD00A9CCE7 /* SBTickerView.m */,
+				F731B8AB180875CD00A9CCE7 /* SBDoubleSidedLayer.h */,
+				F731B8AC180875CD00A9CCE7 /* SBDoubleSidedLayer.m */,
+				F731B8AD180875CD00A9CCE7 /* SBGradientOverlayLayer.h */,
+				F731B8AE180875CD00A9CCE7 /* SBGradientOverlayLayer.m */,
+			);
+			name = SbTickerview;
+			sourceTree = "<group>";
+		};
 		F7939C5B1807BAB100FE5072 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F7939C6A1807BAB100FE5072 /* UIKit.framework */,
+				F731B8E51808767200A9CCE7 /* QuartzCore.framework */,
 				F7939C6C1807BAB100FE5072 /* Foundation.framework */,
 				F7939C6E1807BAB100FE5072 /* CoreGraphics.framework */,
 			);
@@ -79,6 +113,9 @@
 		F7939C701807BAB100FE5072 /* TimerV2 */ = {
 			isa = PBXGroup;
 			children = (
+				F731B8A6180875BE00A9CCE7 /* SbTickerview */,
+				F731B8A31808758800A9CCE7 /* SBTickView.h */,
+				F731B8A41808758800A9CCE7 /* SBTickView.m */,
 				F7939C791807BAB100FE5072 /* AppDelegate.h */,
 				F7939C7A1807BAB100FE5072 /* AppDelegate.m */,
 				F7939C7C1807BAB100FE5072 /* MainStoryboard_iPhone.storyboard */,
@@ -167,6 +204,11 @@
 				F7939C771807BAB100FE5072 /* main.m in Sources */,
 				F7939C7B1807BAB100FE5072 /* AppDelegate.m in Sources */,
 				F7939C841807BAB100FE5072 /* ViewController.m in Sources */,
+				F731B8A51808758800A9CCE7 /* SBTickView.m in Sources */,
+				F731B8AF180875CD00A9CCE7 /* UIView+SBExtras.m in Sources */,
+				F731B8B0180875CD00A9CCE7 /* SBTickerView.m in Sources */,
+				F731B8B1180875CD00A9CCE7 /* SBDoubleSidedLayer.m in Sources */,
+				F731B8B2180875CD00A9CCE7 /* SBGradientOverlayLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +330,7 @@
 				F7939C891807BAB100FE5072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
