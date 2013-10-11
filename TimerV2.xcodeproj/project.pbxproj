@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7939C6B1807BAB100FE5072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7939C6A1807BAB100FE5072 /* UIKit.framework */; };
+		F7939C6D1807BAB100FE5072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7939C6C1807BAB100FE5072 /* Foundation.framework */; };
+		F7939C6F1807BAB100FE5072 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7939C6E1807BAB100FE5072 /* CoreGraphics.framework */; };
+		F7939C751807BAB100FE5072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7939C731807BAB100FE5072 /* InfoPlist.strings */; };
+		F7939C771807BAB100FE5072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7939C761807BAB100FE5072 /* main.m */; };
+		F7939C7B1807BAB100FE5072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7939C7A1807BAB100FE5072 /* AppDelegate.m */; };
+		F7939C7E1807BAB100FE5072 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7939C7C1807BAB100FE5072 /* MainStoryboard_iPhone.storyboard */; };
+		F7939C811807BAB100FE5072 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7939C7F1807BAB100FE5072 /* MainStoryboard_iPad.storyboard */; };
+		F7939C841807BAB100FE5072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7939C831807BAB100FE5072 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7939C661807BAB100FE5072 /* TimerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7939C6A1807BAB100FE5072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7939C6C1807BAB100FE5072 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7939C6E1807BAB100FE5072 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7939C721807BAB100FE5072 /* TimerV2-Info.plist */ = {isa = PBXFileReference; path = "TimerV2-Info.plist"; sourceTree = "<group>"; };
+		F7939C741807BAB100FE5072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7939C761807BAB100FE5072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7939C781807BAB100FE5072 /* TimerV2-Prefix.pch */ = {isa = PBXFileReference; path = "TimerV2-Prefix.pch"; sourceTree = "<group>"; };
+		F7939C791807BAB100FE5072 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7939C7A1807BAB100FE5072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7939C7D1807BAB100FE5072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F7939C801807BAB100FE5072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F7939C821807BAB100FE5072 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F7939C831807BAB100FE5072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7939C631807BAB100FE5072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7939C6B1807BAB100FE5072 /* UIKit.framework in Frameworks */,
+				F7939C6D1807BAB100FE5072 /* Foundation.framework in Frameworks */,
+				F7939C6F1807BAB100FE5072 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7939C5B1807BAB100FE5072 = {
+			isa = PBXGroup;
+			children = (
+				F7939C701807BAB100FE5072 /* TimerV2 */,
+				F7939C691807BAB100FE5072 /* Frameworks */,
+				F7939C671807BAB100FE5072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7939C671807BAB100FE5072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7939C661807BAB100FE5072 /* TimerV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7939C691807BAB100FE5072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7939C6A1807BAB100FE5072 /* UIKit.framework */,
+				F7939C6C1807BAB100FE5072 /* Foundation.framework */,
+				F7939C6E1807BAB100FE5072 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7939C701807BAB100FE5072 /* TimerV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F7939C791807BAB100FE5072 /* AppDelegate.h */,
+				F7939C7A1807BAB100FE5072 /* AppDelegate.m */,
+				F7939C7C1807BAB100FE5072 /* MainStoryboard_iPhone.storyboard */,
+				F7939C7F1807BAB100FE5072 /* MainStoryboard_iPad.storyboard */,
+				F7939C821807BAB100FE5072 /* ViewController.h */,
+				F7939C831807BAB100FE5072 /* ViewController.m */,
+				F7939C711807BAB100FE5072 /* Supporting Files */,
+			);
+			path = TimerV2;
+			sourceTree = "<group>";
+		};
+		F7939C711807BAB100FE5072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7939C721807BAB100FE5072 /* TimerV2-Info.plist */,
+				F7939C731807BAB100FE5072 /* InfoPlist.strings */,
+				F7939C761807BAB100FE5072 /* main.m */,
+				F7939C781807BAB100FE5072 /* TimerV2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7939C651807BAB100FE5072 /* TimerV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7939C871807BAB100FE5072 /* Build configuration list for PBXNativeTarget "TimerV2" */;
+			buildPhases = (
+				F7939C621807BAB100FE5072 /* Sources */,
+				F7939C631807BAB100FE5072 /* Frameworks */,
+				F7939C641807BAB100FE5072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerV2;
+			productName = TimerV2;
+			productReference = F7939C661807BAB100FE5072 /* TimerV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7939C5D1807BAB100FE5072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F7939C601807BAB100FE5072 /* Build configuration list for PBXProject "TimerV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7939C5B1807BAB100FE5072;
+			productRefGroup = F7939C671807BAB100FE5072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7939C651807BAB100FE5072 /* TimerV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7939C641807BAB100FE5072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7939C751807BAB100FE5072 /* InfoPlist.strings in Resources */,
+				F7939C7E1807BAB100FE5072 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F7939C811807BAB100FE5072 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7939C621807BAB100FE5072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7939C771807BAB100FE5072 /* main.m in Sources */,
+				F7939C7B1807BAB100FE5072 /* AppDelegate.m in Sources */,
+				F7939C841807BAB100FE5072 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7939C731807BAB100FE5072 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7939C741807BAB100FE5072 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7939C7C1807BAB100FE5072 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7939C7D1807BAB100FE5072 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F7939C7F1807BAB100FE5072 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7939C801807BAB100FE5072 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7939C851807BAB100FE5072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7939C861807BAB100FE5072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7939C881807BAB100FE5072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimerV2/TimerV2-Prefix.pch";
+				INFOPLIST_FILE = "TimerV2/TimerV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7939C891807BAB100FE5072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimerV2/TimerV2-Prefix.pch";
+				INFOPLIST_FILE = "TimerV2/TimerV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7939C601807BAB100FE5072 /* Build configuration list for PBXProject "TimerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7939C851807BAB100FE5072 /* Debug */,
+				F7939C861807BAB100FE5072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7939C871807BAB100FE5072 /* Build configuration list for PBXNativeTarget "TimerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7939C881807BAB100FE5072 /* Debug */,
+				F7939C891807BAB100FE5072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7939C5D1807BAB100FE5072 /* Project object */;
+}
